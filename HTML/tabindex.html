@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height:150px;
+            width:500px;
+        }
+        #main{
+            display: flex;
+            gap:30px
+        }
+        #b1{
+            background-color: bisque;
+        }
+        #b2{
+            background-color: aqua;
+        }
+        #b3{
+            background-color: cadetblue;
+        }
+        #b4{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div tabindex="4" id="b1">Box1</div>
+        <div tabindex="2" id="b2">Box2</div>
+        <div tabindex="1" id="b3">Box3</div>
+        <div tabindex="3" id="b4">Box4</div>
+    </div>
+    <h1 draggable="true">Content Draggable</h1>
+    <h2 contenteditable="true">Editable content</h2>
+</body>
+</html>

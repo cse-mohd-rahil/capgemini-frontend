@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            padding:10px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+        }
+        .logo{
+            color:white;
+        }
+        .ham{
+            color:white;
+            display: none;
+        }
+        @media(max-width:600px){
+            .ham{
+                display: block;
+            }
+            .menu{
+                display: none;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">LOGO</div>
+        <div class="menu">
+            <a href="">HOME</a>
+            <a href="">ABOUT</a>
+            <a href="">CONTACT</a>
+        </div>
+        <div class="ham"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+</body>
+</html>

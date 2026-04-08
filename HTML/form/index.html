@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="a">Name:</label>
+        <input type="text" id="a" name="name" placeholder="Enter your name" minlength="5" maxlength="20">  <br><br>
+        <label for="b">Email:</label>
+        <input type="email" name="email" id="b" placeholder="Enter your email" required> <br><br>
+        <label for="c">Password:</label>
+        <input type="password" name="password" id="c" placeholder="Enter password"> <br><br>
+        <label for="d">Age:</label>
+        <input type="number" name="age" id="d" placeholder="Enter age" min="18" max="28"> <br><br>
+        <label for="e">Date of birth: </label>
+        <input type="date" name="date" id="e" placeholder="Enter date of birth" min="2009-01-01"> <br><br>
+        <label for="f">Preferred Time: </label>
+        <input type="time" name="time" id="f" placeholder="Enter preferred time"> <br><br>
+        <label for="g">Upload file: </label>
+        <input type="file" name="file" id="g"> <br><br>
+        <label for="h">Experience: </label>
+        <input type="range" name="experience" id="h"> <br><br>
+        <label>Gender: </label> 
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female <br><br>
+        <label>Skills: </label>
+        <input type="checkbox" name="skills" value="html" id="">HTML
+        <input type="checkbox" name="skills" value="css" id="">CSS
+        <input type="checkbox" name="skills" value="js" id="">JavaScript
+        <input type="checkbox" name="skills" value="react" id="">ReactJS <br><br>
+        <label for="i">City: </label>
+        <select name="city" id="i">
+            <option value="">Select</option>
+            <option value="noida">Noida</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="hyderabad">Hyderabad</option>
+        </select> <br><br>
+        <label for="i">Hobbies: </label>
+        <select name="hobbies" id="i" multiple>
+            <option value="">Select</option>
+            <option value="playing">playing</option>
+            <option value="coding">coding</option>
+            <option value="skating">skating</option>
+            <option value="archery">Archery</option>
+        </select> <br><br>
+        <label for="">Course: </label>
+        <select name="course" id="">
+            <optgroup label="Frontend">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+            </optgroup>
+            <optgroup label="Backend">
+                <option value="Java">Java</option>
+                <option value="NodeJS">NodeJS</option>
+            </optgroup>
+        </select> <br><br>
+        <label for="">Location</label>
+        <input type="text" list="City" placeholder="Enter own location or select from given options">
+        <datalist id="City">
+            <option value="Noida">Noida</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Bangalore">Bangalore</option>
+        </datalist> <br><br>
+        <label for="">Country: </label>
+        <input type="text" name="" id="" value="India" readonly> <br><br>
+        <label for="">Referral Code: </label>
+        <input type="text" name="" id="" value="ABC321" disabled> <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

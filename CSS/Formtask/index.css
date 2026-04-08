@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+legend{
+    color: red;
+}
+input{
+    margin-left:50px;
+}
+#label1{
+    color:blue;
+}
+#label2{
+    color:red;
+}
+#label3{
+    color:green;
+}
+#label4{
+    color:brown;
+}
+
+#submit{
+    color:#fff;
+    background-color:black;
+    padding:10px;
+    border-radius:10px;
+    font-size:17px;
+}

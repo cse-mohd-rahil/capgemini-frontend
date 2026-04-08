@@ -1,0 +1,16 @@
+div h1{
+  color:red;  
+}
+
+.child>h1{
+  color:blue;
+}
+
+.sibling + p{
+  color:brown;
+  font-size: 30px;
+}
+
+.sibling2 ~ p{
+  background-color: orange;
+}

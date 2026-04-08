@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::first-letter{
+            color: chocolate;
+            font-size: 40px;
+        }
+        h1::selection{
+            color: #fff;
+            background-color: orangered;
+        }
+        p::first-line{
+            background-color: green;
+            color:azure
+        }
+        li::marker{
+            content: "😊";
+        }
+        h2::before{
+            content: "💖";
+        }
+        h2::after{
+            content: "❤️";
+        }
+        input::placeholder{
+            color:brown;
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Select anything from here it will be selected in different colour?</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel officia maxime eos temporibus expedita, itaque excepturi, laborum quidem dolore porro dolor corporis quos consectetur odit. Tempore maiores excepturi et minus fuga praesentium molestias aut atque voluptate debitis beatae voluptatum voluptatibus reprehenderit, temporibus numquam odio ducimus cupiditate qui, molestiae quos porro veritatis odit! Aperiam ipsam aliquam aspernatur a consequuntur vitae, doloremque, non quae aliquid amet, officiis quasi autem possimus cumque eum laborum optio dolorem sequi. Quia nesciunt debitis eaque saepe ducimus soluta. Necessitatibus odit ut unde magnam recusandae, nulla, libero maiores ratione, facilis rerum nostrum? Quibusdam error corporis mollitia ratione debitis.</p>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h2>Adding content using ::before and ::after</h2>
+
+    <input type="text" name="" id="" placeholder="Enter name">
+</body>
+</html>

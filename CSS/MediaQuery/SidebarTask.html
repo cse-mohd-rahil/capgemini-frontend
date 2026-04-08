@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            height: 100vh;
+
+        }
+        .sidebar{
+            background-color: antiquewhite;
+            padding: 20px;
+        }
+        .main{
+            padding: 20px;
+            background-color: cadetblue;
+            flex-grow: 1;
+        }
+        @media(max-width:600px){
+            .sidebar{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">This is the sidebar section</div>
+        <div class="main">This is the main section</div>
+    </div>
+</body>
+</html>
