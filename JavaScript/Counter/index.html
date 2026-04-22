@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin: 80px auto;
+            width: 30vw;
+            height: 30vh;
+            border: 1px solid;
+            text-align: center;
+            font-size: 25px;
+            background-color: #eee;
+            place-content: center;
+        }
+        button{
+            padding: 10px;
+            font-size: 17px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            margin: 0 10px;
+            color: #fff;
+        }
+        #inc{
+            background-color: rgb(43, 183, 33);
+        }
+        #dec{
+            background-color: rgb(241, 31, 31);
+        }
+        #res{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Counter: <span id="value">0</span></p>
+        <button id="inc">Increase (+)</button>
+        <button id="dec">Decrease (-)</button>
+        <button id="res">Reset (0)</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
