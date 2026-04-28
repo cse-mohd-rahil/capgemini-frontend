@@ -1,0 +1,27 @@
+ *{
+    margin:0;
+    padding:0;
+
+
+ }
+ #container{
+     display: flex;
+     flex-wrap: wrap;
+     width: 70vw;
+     height: 100px;
+     margin: 40px auto;
+}
+
+.card{
+            border: 1px solid grey;
+            width: 200px;
+            text-align: center;
+            height: 200px;
+            background-color: rgb(215, 220, 185);
+            padding: 10px;
+            
+}
+        
+img{
+    height: 100px;
+}

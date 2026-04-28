@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Pizza Mania</title>
+    <style>
+        
+        header{
+            background-color: yellow;
+            padding-left: 50px;
+        }
+        td{
+            padding-left: 20px ;
+            padding-right: 10px;
+            padding-top: 15px;
+        }
+        h3{
+            padding-left: 20px ;
+
+        }
+        img{
+            height: 100px;
+        }
+        .fa-solid{
+            font-size:30px;
+        }
+        .table2 td{
+            padding-right: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <header><h2><i>🍕Pizza Mania🍕</i></h2></header>
+    <main>
+        
+        <form action="">
+            <fieldset>
+                <legend><h1>🍕Pizza Order Here🍕</h1></legend>
+                <table>
+                    <tr>
+                        <td><b>First Name:</b> </td>
+                        <td><input type="text" placeholder="First Name"></td>
+                    </tr>
+                    <tr>
+                        <td><b>Last Name: </b></td>
+                        <td><input type="text" placeholder="Last Name"></td>
+                    </tr>
+                    <tr>
+                    <td><b>Email: </b></td>
+                    <td><input type="text" placeholder="Email Name"></td>
+                </tr>
+                <tr>
+                    <td><b>Contact: </b></td>
+                    <td><input type="text" placeholder="Contact"></td>
+                </tr>
+                <tr>
+                    <td><b>Preferred Delivery Date: </b></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>Size: </b></td>
+                </tr>
+                <tr>
+                    <td>Small<input type="radio" name="size" id="">Medium<input type="radio" name="size" id="">
+                        Large<input type="radio" name="size" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td><b><mark>Outlet:</mark></b></td>
+                    <td><select name="" id="">
+                        <option value="">Select Outlet</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Pune">Pune</option>
+                    </select></td>
+                </tr>
+                
+     
+                </table>
+                <h3>Menu⬇️</h3>
+                <table class="table2">
+                    <tr>
+                        <td><img src="https://cdn-icons-png.flaticon.com/512/2094/2094661.png" alt=""></td>
+                        <td><input type="checkbox" name="type" id=""><b>Hawaiian(Rs. 150.00 ₹ <strike>170.00</strike>)</b>
+                        <select name="quantity" id="">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="https://cdn-icons-png.flaticon.com/512/2674/2674065.png" alt=""></td>
+                    <td><input type="checkbox" name="type" id=""><b>Pepperoni(Rs. 140.00 ₹ <strike>170.00</strike>)</b>
+                        <select name="quantity" id="">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>      
+                    </td>
+                </tr>
+                <tr>
+                        <td><img src="https://cdn-icons-png.flaticon.com/512/4727/4727378.png" alt=""></td>
+                        <td><input type="checkbox" name="type" id=""><b>Vegetable(Rs. 130.00 ₹ <strike>170.00</strike>)</b>
+                            <select name="quantity" id="">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>     
+                        </td>
+                    </tr>
+                </table>
+                <h3>Extra Deta⬇️</h3>
+                <table>
+                    <tr>
+                        <td><i class="fa-solid fa-credit-card"></i></td>
+                        <td><b>Credit Card:</b></td>
+                        <td><input type="number" placeholder="1234-5678-9123-1111" name="credit" id=""></td>
+                        <td><button>Verify Card</button></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-location-pin"></i></td>
+                        <td><b>Pin:</b></td>
+                        <td><input type="number" placeholder="421604" name="pincode" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-image"></i></td>
+                        <td><b><u><mark><i>Upload photo for discount:</i></mark></u></b></td>
+                        <td><input type="file" name="file" id=""></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-note-sticky"></i></td>
+                        <td><b><mark><i>Additional note:</i></mark></b></td>
+                        <td><textarea name="note" id="" placeholder="If any additional requirement then please add here" rows="4" cols="30"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-star"></i></td>
+                        <td><b><mark><i>Rating:</i></mark></b></td>
+                        <td><input type="range" name="rating" id=""></td>
+                    </tr>
+                </table>
+                <center><input type="submit" value="Submit Order"></center>
+        </fieldset>
+        </form>
+    </main>
+</body>
+</html>
